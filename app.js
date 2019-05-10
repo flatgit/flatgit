@@ -13,7 +13,7 @@ app.footer(static)
 // Listen on GET /
 // ECT is a global header so you can access it 
 // from every route with the `$.html()` method
-app.get('/', function($){
+app.get('/new', function($){
    // Set a template variable
    $.data.myVar = 'ect'
    
