@@ -1,3 +1,6 @@
+static/js/*
+static/css/*
+
 # Logs
 logs
 *.log

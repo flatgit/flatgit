@@ -1,0 +1,23 @@
+{
+  "name": "flatgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": "encima",
+  "license": "ISC",
+  "dependencies": {
+    "diet": "^0.16.0",
+    "diet-ect": "^1.0.0",
+    "diet-static": "^2.2.0",
+    "nodegit": "^0.24.3",
+    "simplemde": "^1.11.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
