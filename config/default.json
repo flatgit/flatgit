@@ -1,0 +1,22 @@
+{
+  "docsDir": "repos/",
+  "repos": [
+    {
+      "name": "docs",
+      "url": "git@github.com:CitizenScienceCenter/documentation.git",
+      "token": "github",
+      "docsDir": "content"
+    }
+
+  ],
+  "ssh": {
+    "private": "/home/<you>/.ssh/id_rsa",
+    "public": "/home/<you>/.ssh/id_rsa.pub"
+  },
+  "tokens": {
+    "github_pat": {
+      "username": "<user>",
+      "token": "<token>"
+    }
+}
+}

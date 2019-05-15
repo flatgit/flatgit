@@ -11,14 +11,10 @@ app.header(ect)
 app.footer(static)
 
 // Listen on GET /
-// ECT is a global header so you can access it 
+// ECT is a global header so you can access it
 // from every route with the `$.html()` method
 app.get('/new', function($){
-   // Set a template variable
-   $.data.myVar = 'ect'
-   
-   // Now serve the html file 
-   // by default: /your_app/static/index.html 
-   // use the `root` config to change this
-   $.html() 
+   // Set a template variable for file path of edited doc
+   $.data.myVar = 'ect' 
+   $.html()
 })
